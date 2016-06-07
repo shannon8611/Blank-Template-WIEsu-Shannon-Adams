@@ -1,0 +1,56 @@
+/*
+Theme Name: Shannon Adams Blank Theme
+Theme URI: www.shannoneadams.com/WIE
+Author: Shannon Adams
+Description: Blank theme for WIE course
+Version: 0.1
+License: Open
+Text Domain: Shannon_Adams_blank_template
+*/
+
+@import url("stylesheets/normalize.css");
+@import url("stylesheets/skeleton.css");
+
+
+html, body{
+    color: #000000;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+h1, h2, h3, h4 {
+    color:blue;
+    font-weight: 400;
+}
+
+a {
+    color:darkgray;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+/*--- Menu --- */
+
+.blank-menu-header {
+    text-align: left;
+    margin-top: 20px;
+}
+.blank-menu-header ul {
+    margin: 0; 
+    padding: 0; 
+    list-style-type: none; 
+    list-style-image: none; 
+}
+.blank-menu-header li {
+    display: block;
+}
+.blank-menu-header ul li a {
+    text-decoration:none;  
+    margin: 4px;
+    padding: 0px 0px 5px 40px; 
+    font-weight: 200;
+    font-size: 14px;
+}
+.blank-menu-header ul li a:hover {
+    color: #000000;
+}
